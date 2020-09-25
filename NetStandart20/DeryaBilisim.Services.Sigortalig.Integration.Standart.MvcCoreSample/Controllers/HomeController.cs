@@ -1,9 +1,8 @@
-﻿using MvcCoreSample.Models;
+﻿using DeryaBilisim.Services.Sigortalig.Integration.Standart;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Diagnostics;
-using DeryaBilisim.Services.Sigortalig.Integration.Standart;
 
 namespace MvcCoreSample.Controllers
 {
@@ -38,17 +37,6 @@ namespace MvcCoreSample.Controllers
             Debug.WriteLine(response.Data?.data?.ReferanceCode, "Sigortalig Request");
 
             return View();
-        }
-
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
 }

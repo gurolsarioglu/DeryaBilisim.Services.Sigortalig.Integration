@@ -20,15 +20,17 @@ namespace MvcCoreSample.Controllers
 
         public IActionResult Index()
         {
+            // BES
             var response = _sigortaligService.NewBesInsuranceRequest(new NewBesInsuranceRequestModel
             {
                 BirthDate = DateTime.Now.AddYears(-10),
                 FirstName = "Andrew",
                 LastName = "King",
-                Mail = "kau31289@eoopy.com",
-                PhoneNumber = "601-915-0845",
-                TCKN = "35402186458"
+                Mail = "kau31288@eoopy.com",
+                PhoneNumber = "601-915-0841",
+                TCKN = "32331135922"
             });
+
 
             Debug.WriteLine(response.StatusCode, "Sigortalig Request");
             Debug.WriteLine(response.Data?.message, "Sigortalig Request");

@@ -1,4 +1,4 @@
-namespace DeryaBilisim.Services.Sigortalig.Integration.Standart.MvcCoreSample.Models
+namespace MvcCoreSample.Models
 {
     public class ErrorViewModel
     {

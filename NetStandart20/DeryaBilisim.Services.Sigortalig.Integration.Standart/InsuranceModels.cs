@@ -65,7 +65,7 @@ namespace DeryaBilisim.Services.Sigortalig.Integration.Standart
         public string ProductId { get; set; }
     }
 
-    public partial class NewHealtRequestInsurance : InsuranceBase
+    public partial class NewHealtInsuranceRequestModel : InsuranceBase
     {
         /// <summary>
         /// Cinsiyet
@@ -89,7 +89,7 @@ namespace DeryaBilisim.Services.Sigortalig.Integration.Standart
         public DateTime? BirthDate { get; set; }
     }
 
-    public partial class NewEarthquakeRequestInsurance : InsuranceBase
+    public partial class NewEarthquakeInsuranceRequestModel : InsuranceBase
     {
         /// <summary>
         /// DASK yapılacak evin adresi
@@ -125,7 +125,7 @@ namespace DeryaBilisim.Services.Sigortalig.Integration.Standart
         public int ApartmentNo { get; set; }
     }
 
-    public partial class NewCarRequestInsurance : InsuranceBase
+    public partial class NewCarInsuranceRequestModel : InsuranceBase
     {
         /// <summary>
         /// Kullanım tipi bireysel / kurumsal
@@ -181,7 +181,7 @@ namespace DeryaBilisim.Services.Sigortalig.Integration.Standart
         public string TaxNumber { get; set; }
     }
 
-    public partial class NewComprehensiveRequestInsurance : InsuranceBase
+    public partial class NewComprehensiveInsuranceRequestModel : InsuranceBase
     {
         /// <summary>
         /// Kullanım tipi bireysel / kurumsal
@@ -237,7 +237,7 @@ namespace DeryaBilisim.Services.Sigortalig.Integration.Standart
         public string TaxNumber { get; set; }
     }
 
-    public partial class NewFireRequestInsurance : InsuranceBase
+    public partial class NewFireInsuranceRequestModel : InsuranceBase
     {
         /// <summary>
         /// DASK yapılacak evin adresi
@@ -273,7 +273,7 @@ namespace DeryaBilisim.Services.Sigortalig.Integration.Standart
         public int ApartmentNo { get; set; }
     }
 
-    public partial class NewHouseRequestInsurance : InsuranceBase
+    public partial class NewHouseInsuranceRequestModel : InsuranceBase
     {
         /// <summary>
         /// Konut poliçesiniz varmı?
@@ -289,7 +289,7 @@ namespace DeryaBilisim.Services.Sigortalig.Integration.Standart
         public DateTime? ExistHomePoicyEndDate { get; set; }
     }
 
-    public partial class NewWorkPlaceRequestInsurance : InsuranceBase
+    public partial class NewWorkPlaceInsuranceRequestModel : InsuranceBase
     {
         /// <summary>
         /// Kullanım tipi, Mesken/Ticarethane
@@ -329,7 +329,7 @@ namespace DeryaBilisim.Services.Sigortalig.Integration.Standart
         public string TaxNumber { get; set; }
     }
 
-    public partial class NewBesRequestInsurance : InsuranceBase
+    public partial class NewBesInsuranceRequestModel : InsuranceBase
     {
         /// <summary>
         /// Doğum tarihi

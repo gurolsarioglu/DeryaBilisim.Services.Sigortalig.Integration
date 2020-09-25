@@ -3,6 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
+    <AssemblyName>MvcCoreSample</AssemblyName>
+    <RootNamespace>MvcCoreSample</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

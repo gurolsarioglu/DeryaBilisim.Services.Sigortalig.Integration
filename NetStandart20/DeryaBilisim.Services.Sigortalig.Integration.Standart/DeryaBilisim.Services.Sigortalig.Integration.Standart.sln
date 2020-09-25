@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeryaBilisim.Services.Sigortalig.Integration.Standart", "DeryaBilisim.Services.Sigortalig.Integration.Standart.csproj", "{7522A96A-946B-4F42-A5D4-EC2918E3E619}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeryaBilisim.Services.Sigortalig.Integration.Standart.MvcCoreSample", "..\DeryaBilisim.Services.Sigortalig.Integration.Standart.MvcCoreSample\DeryaBilisim.Services.Sigortalig.Integration.Standart.MvcCoreSample.csproj", "{6604E498-AC0D-4DFC-AB18-93F6ACDE49CC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcCoreSample", "..\DeryaBilisim.Services.Sigortalig.Integration.Standart.MvcCoreSample\MvcCoreSample.csproj", "{6604E498-AC0D-4DFC-AB18-93F6ACDE49CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

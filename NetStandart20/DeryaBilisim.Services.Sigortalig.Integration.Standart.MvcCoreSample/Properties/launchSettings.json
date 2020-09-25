@@ -16,7 +16,7 @@
         "ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation"
       }
     },
-    "DeryaBilisim.Services.Sigortalig.Integration.Standart.MvcCoreSample": {
+    "MvcCoreSample": {
       "commandName": "Project",
       "launchBrowser": true,
       "applicationUrl": "http://localhost:5000",

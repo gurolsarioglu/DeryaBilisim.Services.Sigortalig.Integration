@@ -3,8 +3,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using DeryaBilisim.Services.Sigortalig.Integration.Standart;
 
-namespace DeryaBilisim.Services.Sigortalig.Integration.Standart.MvcCoreSample
+namespace MvcCoreSample
 {
     public class Startup
     {

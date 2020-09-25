@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace DeryaBilisim.Services.Sigortalig.Integration.Standart.MvcCoreSample
+namespace MvcCoreSample
 {
     public class Program
     {

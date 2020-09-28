@@ -7,9 +7,9 @@ API sistemi, Sigortalig sisteminde sigorta acentası şirket hesapları içindir
 
 ## Endpoints
 
-Test Endpoint : https://sigortaligapi-test.azurewebsites.net
+Test Endpoint : https://sigortaligapi-test.azurewebsites.net/api
 
-Prod Endpoint : https://sigortaligapi.azurewebsites.net
+Prod Endpoint : https://sigortaligapi.azurewebsites.net/api
 
 
 ## .NET Core MVC/API App Entegrasyonu
@@ -24,7 +24,7 @@ appsettings.json içerisinde aşağıdaki section ı açarak gerekli endpoint ve
 ```javascript
 {
   "SigortaligIntegration": {
-    "Endpoint": "https://sigortaligapi-test.azurewebsites.net/",
+    "Endpoint": "https://sigortaligapi-test.azurewebsites.net/api",
     "Token": "<<Your-Access-Token>>"
   },
   "Logging": {

@@ -1,4 +1,6 @@
-﻿namespace DeryaBilisim.Services.Sigortalig.Integration.Standart
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace DeryaBilisim.Services.Sigortalig.Integration.Standart
 {
     public enum Gender : int
     {
@@ -119,5 +121,126 @@
         KILIS = 79,
         OSMANIYE = 80,
         DUZCE = 81
+    }
+
+    public enum InsuranceType:int
+    {
+        /// <summary>
+        /// Kasko sigortası
+        /// </summary>
+        [Display(Name = "Kasko")]
+        ComprehensiveInsurance = 1,
+        //[Display(Name = "Tamamlayıcı Sağlık Sigortası")]
+        //CollateralInsurance = 2,
+        /// <summary>
+        /// Zorunlu Trafik sigortası
+        /// </summary>
+        [Display(Name = "Trafik Sigortası")]
+        CarInsurance = 3,
+        /// <summary>
+        /// Yangın sigortası
+        /// </summary>
+        [Display(Name = "Yangın")]
+        FireInsurance = 4,
+        /// <summary>
+        /// Sağlık sigortası
+        /// </summary>
+        [Display(Name = "Sağlık Sigortası")]
+        HealtInsurance = 5,
+        /// <summary>
+        /// Deprem Sigortası DASK
+        /// </summary>
+        [Display(Name = "DASK")]
+        EarthquakeInsurance = 6,
+        /// <summary>
+        /// Bireysel emeklilik
+        /// </summary>
+        [Display(Name = "BES")]
+        BESInsurance = 7,
+        /// <summary>
+        /// Konut sigortası
+        /// </summary>
+        [Display(Name = "Konut Sigortası")]
+        HouseInsurance = 8,
+        /// <summary>
+        /// İşyeri sigortası
+        /// </summary>
+        [Display(Name = "İşyeri Sigortası")]
+        WorkPlaceInsurance = 9,
+        /// <summary>
+        /// Tarım Sigortası
+        /// </summary>
+        [Display(Name = "Tarım Sigortası")]
+        AgricultureInsurance = 10,
+        /// <summary>
+        /// Oto Dışı kaza sigortası
+        /// </summary>
+        [Display(Name = "Oto Dışı Kaza")]
+        NoneAutoInsurance = 11,
+        /// <summary>
+        /// Oto Diğer kaza sigortası
+        /// </summary>
+        [Display(Name = "Oto Diğer")]
+        AutoOtherInsurance = 12,
+        /// <summary>
+        /// İnşaat all sigorta
+        /// </summary>
+        [Display(Name = "İnşaat All")]
+        ConstructionAllInsurance = 13,
+        /// <summary>
+        /// Tamamlayıcı Trafik Sigortası
+        /// </summary>
+        [Display(Name = "Tamamlayıcı Trafik")]
+        ComplementaryTrafficInsurance = 14,
+        /// <summary>
+        /// Hayata Devam Sigortası
+        /// </summary>
+        [Display(Name = "Hayata Devam Sigortası")]
+        SurvivalInsurance = 15,
+        /// <summary>
+        /// Hayat Sigortası
+        /// </summary>
+        [Display(Name = "Hayat Sigortası")]
+        LifeInsurance = 16,
+        /// <summary>
+        /// Ferdi Kaza Sigortası
+        /// </summary>
+        [Display(Name = "Ferdi Kaza")]
+        PersonalAccidentInsurance = 17,
+        /// <summary>
+        /// NAkliye Sigortası
+        /// </summary>
+        [Display(Name = "Nakliye Sigortası")]
+        TransportationInsurance = 18,
+        /// <summary>
+        /// Mühendislik
+        /// </summary>
+        [Display(Name = "Mühendislik Sigortası")]
+        EngineerInsurance = 19,
+        /// <summary>
+        /// Sorumluluk
+        /// </summary>
+        [Display(Name = "Sorumluluk Sigortası")]
+        ResponsibleInsurance = 20,
+        /// <summary>
+        /// Yabancı Sağlık sigortası
+        /// </summary>
+        [Display(Name = "Yabancı Sağlık")]
+        ForeignHealthInsurance = 21,
+        /// <summary>
+        /// Ortak lan sigortası
+        /// </summary>
+        [Display(Name = "Ortak Alan")]
+        PublicAreaInsurance = 22,
+        /// <summary>
+        /// Siber koruma sigortası
+        /// </summary>
+        [Display(Name = "Siber Koruma")]
+        CyberProtectionInsurance = 23,
+        /// <summary>
+        /// Dijital güvenlik sigortası
+        /// </summary>
+        [Display(Name = "Dijital Güvenlik")]
+        DigitalSecurityInsurance = 24
     }
 }

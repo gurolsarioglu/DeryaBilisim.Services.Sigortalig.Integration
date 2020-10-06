@@ -336,4 +336,8 @@ namespace DeryaBilisim.Services.Sigortalig.Integration.Standart
         /// </summary>
         public DateTime BirthDate { get; set; }
     }
+
+    public partial class NewOtherInsuranceRequestModel : InsuranceBase
+    {
+    }
 }

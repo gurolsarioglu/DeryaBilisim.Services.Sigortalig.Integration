@@ -15,4 +15,11 @@ namespace DeryaBilisim.Services.Sigortalig.Integration.Standart
             errors = new List<object>();
         }
     }
+
+    public partial class InsuranceTypeResponse
+    {
+        public InsuranceType InsuranceType { get; set; }
+        public string Name { get; set; }
+        public string ApiEndPoint { get; set; }
+    }
 }
